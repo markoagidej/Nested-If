@@ -23,8 +23,7 @@ elif place == "cave":
         elif torch_action == "right":
             print("You slide down a steep inlcine!")
         else:
-            # print("You bump you nose.")
-            default_pass()
+            pass
     elif cave_choice == "proceed in the dark":
         dark_action = input("left or right?")
         if dark_action == "left":
@@ -32,14 +31,11 @@ elif place == "cave":
         elif dark_action == "right":
             print("You slide down a steep inlcine!")
         else:
-            # print("You bump you nose.")
-            default_pass()
+            pass
     else:
-        # print("You stand at the entrance to the cave, mouth agape, for all eternity.")
-        default_pass()
+        pass
 
 
 # Task 3: Default Path
-
-def default_pass():
-    pass
+        pass
+    # not sure how to do this progressively in the file, goin bac and adding pass to else cases
